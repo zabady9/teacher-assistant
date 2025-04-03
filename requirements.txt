@@ -1,0 +1,6 @@
+pymupdf
+pillow
+pytesseract
+reportlab
+streamlit
+google-generativeai
