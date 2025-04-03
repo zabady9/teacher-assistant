@@ -24,11 +24,11 @@ def main():
     if option == "Generate Lesson Plan":
         st.subheader("Generate a Realistic Lesson Plan")
         subject = st.text_input("Enter the subject (e.g., Mathematics)", value="Mathematics")
-        topic = st.text_input("Enter the topic or main focus of the lesson (e.g., Solving Linear Equations)", value="Solving Linear Equations")
+        topic = st.text_input("Enter the topic or main focus of the lesson (e.g., addition)", value="addition")
         grade = st.selectbox(
             "Grade Level",
             ["Kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th"],
-            index=1
+            index=0
         )
         level = st.selectbox("Student Proficiency Level", ["Beginner", "Intermediate", "Advanced"], index=0)
         duration = st.number_input("Lesson Duration (in minutes)", min_value=30, max_value=120, value=45)
