@@ -10,7 +10,7 @@ Smart Teacher Assistant is an AI-powered application designed to help teachers a
 - **functions.py**: Contains all the helper functions that power the application:
   - `query_llm()`: Communicates with the Gemini AI model
   - `extract_text_from_pdf()`: Extracts text and performs OCR on images in PDF files
-  - `create_questions_pdf()`: Generates professionally formatted PDF files containing test questions
+  - `create_questions_pdf()`: Generates formatted PDF files containing test questions
 
 ## Features
 
