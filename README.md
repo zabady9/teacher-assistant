@@ -22,7 +22,7 @@ Smart Teacher Assistant is an AI-powered application designed to help teachers a
 
 1. Install required dependencies:
 ```bash
-pip install streamlit google-generativeai pymupdf pillow pytesseract reportlab
+pip install -r requirements.txt
 ```
 
 2. Set up Google Gemini API key in the code
